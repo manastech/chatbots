@@ -10,7 +10,7 @@ export default class UserMenu extends Component {
       <MenuButton
         id="user-menu"
         buttonChildren="arrow_drop_down"
-        label="mscebba@manas.com.ar"
+        label="Robert Stevenson"
         flat
         position={MenuButton.Positions.BELOW}
       >

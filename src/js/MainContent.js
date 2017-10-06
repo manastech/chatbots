@@ -7,7 +7,7 @@ class MainContent extends Component {
 
     return (
       <div className='main-content'>
-        <h1 className='md-display-2'>Front desk</h1>
+        <h1 className='md-display-1 black'>Front desk</h1>
         <p className='md-headline'>This are the basic messages your boot needs to handle. The front desk will assign other messages to the skill that will be better suited to respond</p>
         <Md.TextField
           label="Greeting"

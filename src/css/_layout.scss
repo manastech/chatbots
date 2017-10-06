@@ -22,7 +22,7 @@ main {
   nav {
     flex-direction: row;
     display: flex;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid $md-grey-900;
     .sections {
       flex-grow: 1;
       .md-btn--text {
@@ -46,7 +46,11 @@ main {
     padding-right: 10%;
   }
   .add-button {
-    margin-bottom: -2rem;
+    color: $md-white-base;
+    transform: translateY(2rem);
+    &:hover {
+      background-color: $md-secondary-color;
+    }
   }
 }
 .sub-nav {

@@ -51,6 +51,28 @@
   margin-top: 2rem;
 }
 
+#more-menu {
+  transform: translateX(-56px) translateY(-7px);
+  z-index: 999;
+  ul {
+    @extend .rounded;
+    min-width: 150px;
+    margin-top: -42px;
+    margin-left: -6px;
+    i.dummy {
+      margin-left: -10px;
+    }
+  }
+
+}
+
+.btn-more {
+  padding: 0;
+  min-width: auto;
+}
+
+
+
 /* ========== Helper classes ============ */
 
 
@@ -60,7 +82,9 @@
 .grey {
   color: $md-grey-500;
 }
-
+.black {
+  color: $md-black-base;
+}
 
 
 
